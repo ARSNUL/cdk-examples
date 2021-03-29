@@ -1,8 +1,14 @@
 !jest.config.js
 *.d.ts
 node_modules
-.cdk.staging
-cdk.out
 .parcel-cache
 .idea
 .DS_Store
+
+### CDK-specific ignores ###
+*.swp
+cdk.context.json
+package-lock.json
+yarn.lock
+.cdk.staging
+cdk.out
